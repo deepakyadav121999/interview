@@ -1,0 +1,68 @@
+Q 1 Is JavaScript a compiled or interpreted language
+Ans : JavaScript is an interpreted language, not a compiled language. A program such as C++ or Java needs to be compiled before it is run.
+
+Q 2: Is JavaScript a case-sensitive language ? 
+Ans : JavaScript is a case-sensitive language. This means that language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters.
+
+Q3 : What is the difference between null and undefined ?
+Ans : In JavaScript, null and undefined are two distinct types that represent different values. By definition, undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of null .
+
+
+Q 4 :what is dom in javascript ?
+Ans :What is the DOM? The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+
+Q 5 :What are Event Listeners?
+Ans : An event listener is a function in JavaScript that waits for an event to occur then responds to it. JavaScript is a programming language that developers use to make interactive webpages.
+
+Q6 : What is the difference between == and === operators ?
+Ans: The main difference between the two operators is how they compare values. The == operator compares the values of two variables after performing type conversion if necessary. On the other hand, the === operator compares the values of two variables without performing type conversion.
+
+Q7 : What is the difference between let and var?
+Ans :Var can be declared and accessed globally. Let can be declared globally, but its access is limited to the block in which it is declared. Variables declared using var can be re-declared and updated within the same scope. Variables declared with let can be updated but not re-declared within the same scope.
+
+Q8 : What is isNaN ?
+Ans : isNaN() method returns true if a value is Not-a-Number. Number. isNaN() returns true if a number is Not-a-Number. In other words: isNaN() converts the value to a number before testing it.
+
+Q9 : what are global variables in javascript ?
+Ans : A global variable is a variable that is declared in the global scope in other words, a variable that is visible from all other scopes. In JavaScript it is a property of the global object.
+
+
+Q10 : What are the problems with global variables ?
+Ans : It can lead to inefficient memory usage if not managed properly, especially if the variable holds extensive data.
+
+
+Q11 :What is the purpose of double exclamation?
+Ans: The Meaning Behind the Double Exclamation Mark
+The double exclamation mark is essentially a punctuation pair that serves to heighten the emotion or urgency beyond what a single exclamation mark conveys. It's like shouting in written form or adding an extra level of enthusiasm or shock.
+
+
+Q 12: Some reserved words in javascript. Can I use reserved words as identifiers?
+Ans : JavaScript reserves a number of identifiers as the keywords of the language itself. You cannot use these words as identifiers in your programs: break delete function return typeof case do if switch var catch else in this void continue false instanceof ...
+
+Q13 : What are various operators supported by javascript?
+Ans :JavaScript Arithmetic Operators perform arithmetic operations: addition (+), subtraction (-), multiplication (*), division (/), modulus (%), and exponentiation (**). Addition '+' operator performs addition on two operands. This '+' operator can also be used to concatenate (add) strings.
+
+
+Q14 : What is the purpose of switch-case ?
+Ans: The switch case in java executes one statement from multiple ones. Thus, it is like an if-else-if ladder statement. It works with a lot of data types. The switch statement is used to test the equality of a variable against several values specified in the test cases.
+
+Q15 : What are primitive data types ?
+Ans : Primitive data types - includes byte , short , int , long , float , double , boolean and char. Non-primitive data types - such as String , Arrays and Classes (you will learn more about these in a later chapter)
+
+Q16 : When you get a syntax error ?
+Ans : A SyntaxError is a type of error that is thrown when there is a typo in the code, creating invalid code - code which cannot be interpreted by the compiler. Some common causes of a SyntaxError are: Missing opening or closing brackets, braces, or parentheses. Missing or invalid semicolons.
+
+Q17 : What is call stack ?
+Ans : JavaScript uses a Call Stack to track the functions in a program. The call stack works on the Last In, First Out (LIFO) principle. This means that the most recently called function will be the first to be completed. Whenever a function is called, a new frame is added to the top of the stack.
+
+Q18 : What is global execution context?
+Ans : Global Execution Context
+GEC performs the two following tasks: Firstly, it creates a global object where it is for Node. js and Window object for the browsers. Secondly, reference the Windows object to 'this' keyword. Create a memory heap in order to store variables and function references.
+
+Q 19 : What is function execution context?
+Ans : Functional Execution Context
+FEC or Functional Execution Code is that type of context which is created by the JavaScript engine when any function call is found. Every function has its own execution context, and thus unlike GEC, the FEC can be more than one.
+
+
+
+
